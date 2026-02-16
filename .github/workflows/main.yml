@@ -23,4 +23,5 @@ jobs:
       - name: Deploy to Surge
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: surge ./ tu-nombre-unico.surge.sh --token $SURGE_TOKEN
+        run: surge ./ marloncastillo2026.surge.sh --token $SURGE_TOKEN
+
